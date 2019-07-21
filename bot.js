@@ -3548,4 +3548,3 @@ client.on('message', message => {
 
     .setDescription(" مدة الرابط : ساعه  عدد استخدامات الرابط : 1 ")
       message.author.sendEmbed(Embed11)
-    }

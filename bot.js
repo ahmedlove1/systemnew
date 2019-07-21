@@ -3525,6 +3525,7 @@ return channel.send("")
     }
     )});
 client.login(process.env.BOT_TOKEN)
+
 client.on('message', message => {
      if (message.author.bot) return;
     if (message.content.startsWith("رابط")) {
@@ -3547,5 +3548,4 @@ client.on('message', message => {
         .setColor("RANDOM")
 
     .setDescription(" مدة الرابط : ساعه  عدد استخدامات الرابط : 1 ")
-    message.author.sendEmbed(Embed11)
-   }
+ (message.author.sendEmbed(Embed11)

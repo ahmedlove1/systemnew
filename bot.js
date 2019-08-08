@@ -3527,7 +3527,7 @@ return channel.send("")
 client.login(process.env.BOT_TOKEN)
 client.on("message", message => {
     if (!message.guild || message.author.bot) return;
-    if (message.content == "colors") {
+    if (message.content == "الوان") {
         var fsn = require('fs-nextra');
         fs.readdir('./colors', async (err, files) => {
             var f = files[Math.floor(Math.random() * files.length)];
